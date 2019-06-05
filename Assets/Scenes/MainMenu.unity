@@ -1589,8 +1589,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157652051}
   m_LocalRotation: {x: -0.501986, y: 0.49800614, z: -0.49800614, w: 0.501986}
-  m_LocalPosition: {x: 26, y: 450, z: -6.2424893}
-  m_LocalScale: {x: 3.4814126, y: 3.4814138, z: 3.481416}
+  m_LocalPosition: {x: 22, y: 400, z: -6.2424893}
+  m_LocalScale: {x: 1.481413, y: 3.4814138, z: 3.481416}
   m_Children: []
   m_Father: {fileID: 1915895466}
   m_RootOrder: 0
@@ -1909,7 +1909,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2231,7 +2231,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: -0.7
+      scalar: -1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2490,7 +2490,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 400
+      scalar: 1500
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4251,7 +4251,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.9
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -7020,11 +7020,6 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 999
       objectReference: {fileID: 0}
-    - target: {fileID: 4343374844721786360, guid: 74da045a9ec5c7048a8737b0c20ac7c8,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3688196528517612350, guid: 74da045a9ec5c7048a8737b0c20ac7c8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7034,6 +7029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343374844721786360, guid: 74da045a9ec5c7048a8737b0c20ac7c8,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74da045a9ec5c7048a8737b0c20ac7c8, type: 3}
@@ -7737,7 +7737,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997057509}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -7937,7 +7937,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061197659}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
